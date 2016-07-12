@@ -1,0 +1,166 @@
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+
+/*Menu Button*/
+
+#menu-button-header-nav {
+  height: 20px;
+  width: 50px;
+  position: fixed;
+  position: absolute;
+  margin-left: 100px;
+  top: 0;
+}
+
+/*HEADER TOTAL LAYOUT*/
+
+
+/*Header Block*/
+header {
+  height: 130px;
+  background: white;
+  /*how do you change opacity*/
+  color: black;
+  opacity: .8;
+}
+
+#header-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+/*Link Container*/
+
+.main-nav-link-container {
+  background-color: red;
+  width: 300px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+/*Social Container*/
+
+.main-nav-social-container {
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+/*Download Container*/
+
+.main-nav-download-container {
+  background-color: yellow;
+  width: 200px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+h1 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.main-nav-internal-container-links {
+  margin-left: 50px;
+  background-color: green;
+  height: 100px;
+  width: 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Menu Buttons - Nav buttons*/
+#main-nav-link {
+  text-decoration: none;
+  padding: 2px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  /*hover criteria*/
+#main-nav-link:hover {
+  transition-property: color;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
+  color: aqua;
+}
+
+/**/
+#hero {
+  background: url('../Images/IMG_3443.jpg') no-repeat;
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+#hero h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.main-contact {
+  float: right;
+  height: 50px;
+  width: 150px;
+  color: #00FFF8;
+  background-color: #black;
+  border: 2px solid #00FFF8;
+  padding: 50px;
+}
+
+.main-contact:hover{
+  padding: 5px 10px;
+  background: white;
+  color: black;
+}
+.btn {
+  flex: center;
+  height: 100px;
+  width: 300px;
+  color: #BB00B5;
+  background-color: #50505E;
+  border: 2px solid #BB00B5;
+}
+
+.btn:hover {
+  padding: 5px 10px;
+  background: #BB00B5;
+  color: #50505E;
+}
+
+footer {
+    background: #50505E;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+  margin: 40px 0;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+@media (max-width: 400px) {
+  .header {
+
+  }
